@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html {
+  background: url(./imagens/read_news1.png) no-repeat center;
+  background-size: contain;
+  background-position-x: 100%;
+
+  font-size: 62.5%;
+}
+
+:root {
+  --body-bg-color: #121214;
+  --text-color: #e1e1e6;
+  --title-color: #04d361;
+  --form-color: #a8a8a8;
+  --bg-button-color: #8257e5;
+}
+
+main {
+  background: var(--body-bg-color);
+  width: 720px;
+  height: 96vh;
+}
+
+.logo {
+  margin: 50px 0 92px 30px;
+}
+
+div {
+  display: grid;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--title-color);
+  margin-bottom: 8.56px;
+}
+
+div p {
+  font-family: "League Spartan", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: 9px;
+}
+
+div :nth-child(3) {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--text-color);
+  margin-bottom: 50px;
+}
+
+form {
+  margin-left: 36px;
+  display: grid;
+}
+
+label {
+  font-family: "League Spartan", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--form-color);
+  margin-bottom: 17px;
+}
+
+input {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 17px;
+  width: 750px;
+  border: none;
+  border-left: 5px solid #04d361;
+  outline: none;
+  margin-bottom: 52px;
+  list-style: none;
+}
+
+form p {
+  font-family: "League Spartan", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--bg-button-color);
+  display: flex;
+  align-items: center;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+form div {
+  display: flex;
+  align-items: center;
+}
+
+form div img {
+  background: var(--bg-button-color);
+  padding: 12px;
+  cursor: pointer;
+  position: fixed;
+  top: 43.6%;
+  left: 40%;
+}
+
+footer {
+  text-align: center;
+  background: var(--bg-button-color);
+  padding: 11.5px;
+}
+footer p {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
